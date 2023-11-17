@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    width: 100%;
+    background-image: linear-gradient(to right, #b224ef 0%, #7579ff 100%);
+    padding: .5rem;
+}
+.jumbotron {
+    background-blend-mode: lighten;
+    padding:.5rem;
+    padding-top: 2.5rem;
+}
+.todo-btn {
+    min-width: 25%;
+}
+
+@media screen and (max-width:768px) {
+    .btn-wrapper {
+        text-align: center;
+    }
+    .btn-wrapper .btn-update{
+        margin: 0 !important;
+        margin-top: .5rem !important;    
+    }
+}
+
